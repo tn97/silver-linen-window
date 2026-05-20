@@ -14,7 +14,7 @@ Codex Honorific shows what Codex is currently doing as your local Honorific titl
 
 It can style the title with solid glows, Honorific preset gradient glows, two-color gradient glows, and Pulse/Wave/Static glow animations.
 
-It does not automatically clear the title when Codex goes idle, the bridge disconnects, or the plugin unloads. Use the `Clear title` button in `/codexhonorific` when you want to remove it.
+It does not automatically clear the title when Codex goes idle, the bridge disconnects, or the plugin unloads. Use the `Clear title` button in `/codex` when you want to remove it.
 
 The setup has two pieces:
 
@@ -100,7 +100,7 @@ Install it.
 In FFXIV chat, type:
 
 ```text
-/codexhonorific
+/codex
 ```
 
 Set the bridge URL to:
