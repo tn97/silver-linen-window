@@ -3,7 +3,7 @@
     "Author": "tn97",
     "Name": "CodexHonorific",
     "InternalName": "CodexHonorific",
-    "AssemblyVersion": "0.1.0.0",
+    "AssemblyVersion": "0.2.0.0",
     "Description": "Polls the Codex Honorific bridge on your Mac and displays the current Codex working state through Caraxi's Honorific plugin.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/tn97/codex-honorific",
@@ -24,6 +24,6 @@
     "DownloadLinkInstall": "https://github.com/tn97/codex-honorific-dalamud-repo/releases/latest/download/latest.zip",
     "DownloadLinkTesting": "https://github.com/tn97/codex-honorific-dalamud-repo/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/tn97/codex-honorific-dalamud-repo/releases/latest/download/latest.zip",
-    "LastUpdate": 1779275988
+    "LastUpdate": 1779276949
   }
 ]

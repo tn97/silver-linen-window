@@ -12,6 +12,8 @@ https://raw.githubusercontent.com/tn97/codex-honorific-dalamud-repo/main/repo.js
 
 Codex Honorific shows what Codex is currently doing as your local Honorific title in FFXIV.
 
+It can style the title with solid glows, Honorific preset gradient glows, two-color gradient glows, and Pulse/Wave/Static glow animations.
+
 The setup has two pieces:
 
 - The Mac runs a small bridge that reads your local Codex session state.
