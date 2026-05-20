@@ -14,6 +14,8 @@ Codex Honorific shows what Codex is currently doing as your local Honorific titl
 
 It can style the title with solid glows, Honorific preset gradient glows, two-color gradient glows, and Pulse/Wave/Static glow animations.
 
+It does not automatically clear the title when Codex goes idle, the bridge disconnects, or the plugin unloads. Use the `Clear title` button in `/codexhonorific` when you want to remove it.
+
 The setup has two pieces:
 
 - The Mac runs a small bridge that reads your local Codex session state.
@@ -130,6 +132,26 @@ curl.exe -H "Authorization: Bearer make-up-a-long-password-here" http://YOUR_MAC
 ```
 
 If that works, the plugin should be able to read the bridge too.
+
+## Force A Title
+
+To force a specific title from the Mac, run:
+
+```bash
+curl -X POST \
+  -H "Authorization: Bearer make-up-a-long-password-here" \
+  -H "Content-Type: application/json" \
+  http://YOUR_MAC_IP:43147/force \
+  -d '{"status":"working","title":"Codex: Manual mode","details":"Forced from Mac"}'
+```
+
+To stop forcing the title and return to automatic Codex detection:
+
+```bash
+curl -X DELETE \
+  -H "Authorization: Bearer make-up-a-long-password-here" \
+  http://YOUR_MAC_IP:43147/force
+```
 
 ## Lightless Sync
 
